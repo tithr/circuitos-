@@ -4,20 +4,20 @@
 #include <HCSR04.h>
 
 // ---------- Pinos ----------
-#define ENA   6                                                                                                                                                                                                                                                                                                                                                                                               
-#define IN1   8
-#define IN2   7
+#define ENA   6
+#define IN1   7
+#define IN2   8
 #define ENB   11
-#define IN3   9
-#define IN4   10
+#define IN3   10
+#define IN4   9
 #define PINO_SERVO 3
-#define TRIG  4                                                                                                                                                                                                                                                                                                                                                                                                                                      
+#define TRIG  4
 #define ECHO  5
 
 // ---------- Ajustes ----------
 #define LCD_ENDERECO     0x27   // se o LCD não acender, tente 0x3F
 #define VELOCIDADE       50    // 0 a 255
-#define VELOCIDADE_CURVA 50      
+#define VELOCIDADE_CURVA 50
 
 #define DIST_OBSTACULO   25     // cm: abaixo disso o robô para e desvia
 #define TEMPO_RE         350    // ms de ré
