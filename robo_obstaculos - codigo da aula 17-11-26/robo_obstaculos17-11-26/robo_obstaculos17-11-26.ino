@@ -5,8 +5,8 @@
 
 // ---------- Pinos ----------
 #define ENA   6                                                                                                                                                                                                                                                                                                                                                                                               
-#define IN1   7
-#define IN2   8
+#define IN1   8
+#define IN2   7
 #define ENB   11
 #define IN3   9
 #define IN4   10
